@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Test picture generator</title>
+	<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+	<h1>Test picture generator</h1>
+
+	<p>This tool draws a simple test image using JavaScript commands.</p>
+
+	<p>I use the generated pictures to test the native resolution of displays as well as the implemented scaling strategies.</p>
+
+	<form action="#">
+		<label for="width">Width: </label>
+		<input type="text" id="width" value="480">
+		<label for="height">Height: </label>
+		<input type="text" id="height" value="270">
+		<button id="generate">Generate</button>
+	</form>
+
+	<div id="workspace">
+	</div>
+
+	<a id="download" href="#">Download as PNG</a>
+
+	<script src="js/main.js"></script>
+</body>
+</html>
